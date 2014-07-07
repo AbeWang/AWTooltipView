@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30CD6957196A7681003C0E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CD6956196A7681003C0E60 /* Foundation.framework */; };
+		30CD6959196A7681003C0E60 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CD6958196A7681003C0E60 /* CoreGraphics.framework */; };
+		30CD695B196A7681003C0E60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CD695A196A7681003C0E60 /* UIKit.framework */; };
+		30CD6961196A7681003C0E60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30CD695F196A7681003C0E60 /* InfoPlist.strings */; };
+		30CD6963196A7681003C0E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD6962196A7681003C0E60 /* main.m */; };
+		30CD6967196A7681003C0E60 /* AWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD6966196A7681003C0E60 /* AWAppDelegate.m */; };
+		30CD6970196A7681003C0E60 /* AWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD696F196A7681003C0E60 /* AWViewController.m */; };
+		30CD6972196A7681003C0E60 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30CD6971196A7681003C0E60 /* Images.xcassets */; };
+		30CD6979196A7681003C0E60 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CD6978196A7681003C0E60 /* XCTest.framework */; };
+		30CD697A196A7681003C0E60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CD6956196A7681003C0E60 /* Foundation.framework */; };
+		30CD697B196A7681003C0E60 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30CD695A196A7681003C0E60 /* UIKit.framework */; };
+		30CD6983196A7681003C0E60 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 30CD6981196A7681003C0E60 /* InfoPlist.strings */; };
+		30CD6985196A7681003C0E60 /* AWTooltipViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD6984196A7681003C0E60 /* AWTooltipViewTests.m */; };
+		30CD6991196A777E003C0E60 /* AWTooltipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 30CD6990196A777E003C0E60 /* AWTooltipView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30CD697C196A7681003C0E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 30CD694B196A7681003C0E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30CD6952196A7681003C0E60;
+			remoteInfo = AWTooltipView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		30CD6953196A7681003C0E60 /* AWTooltipView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AWTooltipView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CD6956196A7681003C0E60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		30CD6958196A7681003C0E60 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		30CD695A196A7681003C0E60 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		30CD695E196A7681003C0E60 /* AWTooltipView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWTooltipView-Info.plist"; sourceTree = "<group>"; };
+		30CD6960196A7681003C0E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30CD6962196A7681003C0E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		30CD6964196A7681003C0E60 /* AWTooltipView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AWTooltipView-Prefix.pch"; sourceTree = "<group>"; };
+		30CD6965196A7681003C0E60 /* AWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWAppDelegate.h; sourceTree = "<group>"; };
+		30CD6966196A7681003C0E60 /* AWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWAppDelegate.m; sourceTree = "<group>"; };
+		30CD696E196A7681003C0E60 /* AWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AWViewController.h; sourceTree = "<group>"; };
+		30CD696F196A7681003C0E60 /* AWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWViewController.m; sourceTree = "<group>"; };
+		30CD6971196A7681003C0E60 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		30CD6977196A7681003C0E60 /* AWTooltipViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AWTooltipViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CD6978196A7681003C0E60 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		30CD6980196A7681003C0E60 /* AWTooltipViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AWTooltipViewTests-Info.plist"; sourceTree = "<group>"; };
+		30CD6982196A7681003C0E60 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		30CD6984196A7681003C0E60 /* AWTooltipViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AWTooltipViewTests.m; sourceTree = "<group>"; };
+		30CD698F196A777E003C0E60 /* AWTooltipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AWTooltipView.h; path = AWTooltipView/AWTooltipView.h; sourceTree = "<group>"; };
+		30CD6990196A777E003C0E60 /* AWTooltipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AWTooltipView.m; path = AWTooltipView/AWTooltipView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30CD6950196A7681003C0E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CD6959196A7681003C0E60 /* CoreGraphics.framework in Frameworks */,
+				30CD695B196A7681003C0E60 /* UIKit.framework in Frameworks */,
+				30CD6957196A7681003C0E60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CD6974196A7681003C0E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CD6979196A7681003C0E60 /* XCTest.framework in Frameworks */,
+				30CD697B196A7681003C0E60 /* UIKit.framework in Frameworks */,
+				30CD697A196A7681003C0E60 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30CD694A196A7681003C0E60 = {
+			isa = PBXGroup;
+			children = (
+				30CD695C196A7681003C0E60 /* AWTooltipView */,
+				30CD697E196A7681003C0E60 /* AWTooltipViewTests */,
+				30CD6955196A7681003C0E60 /* Frameworks */,
+				30CD6954196A7681003C0E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		30CD6954196A7681003C0E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30CD6953196A7681003C0E60 /* AWTooltipView.app */,
+				30CD6977196A7681003C0E60 /* AWTooltipViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30CD6955196A7681003C0E60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				30CD6956196A7681003C0E60 /* Foundation.framework */,
+				30CD6958196A7681003C0E60 /* CoreGraphics.framework */,
+				30CD695A196A7681003C0E60 /* UIKit.framework */,
+				30CD6978196A7681003C0E60 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		30CD695C196A7681003C0E60 /* AWTooltipView */ = {
+			isa = PBXGroup;
+			children = (
+				30CD698E196A7768003C0E60 /* AWTooltipView */,
+				30CD6965196A7681003C0E60 /* AWAppDelegate.h */,
+				30CD6966196A7681003C0E60 /* AWAppDelegate.m */,
+				30CD696E196A7681003C0E60 /* AWViewController.h */,
+				30CD696F196A7681003C0E60 /* AWViewController.m */,
+				30CD6971196A7681003C0E60 /* Images.xcassets */,
+				30CD695D196A7681003C0E60 /* Supporting Files */,
+			);
+			path = AWTooltipView;
+			sourceTree = "<group>";
+		};
+		30CD695D196A7681003C0E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CD695E196A7681003C0E60 /* AWTooltipView-Info.plist */,
+				30CD695F196A7681003C0E60 /* InfoPlist.strings */,
+				30CD6962196A7681003C0E60 /* main.m */,
+				30CD6964196A7681003C0E60 /* AWTooltipView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30CD697E196A7681003C0E60 /* AWTooltipViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				30CD6984196A7681003C0E60 /* AWTooltipViewTests.m */,
+				30CD697F196A7681003C0E60 /* Supporting Files */,
+			);
+			path = AWTooltipViewTests;
+			sourceTree = "<group>";
+		};
+		30CD697F196A7681003C0E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				30CD6980196A7681003C0E60 /* AWTooltipViewTests-Info.plist */,
+				30CD6981196A7681003C0E60 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		30CD698E196A7768003C0E60 /* AWTooltipView */ = {
+			isa = PBXGroup;
+			children = (
+				30CD698F196A777E003C0E60 /* AWTooltipView.h */,
+				30CD6990196A777E003C0E60 /* AWTooltipView.m */,
+			);
+			name = AWTooltipView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30CD6952196A7681003C0E60 /* AWTooltipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CD6988196A7681003C0E60 /* Build configuration list for PBXNativeTarget "AWTooltipView" */;
+			buildPhases = (
+				30CD694F196A7681003C0E60 /* Sources */,
+				30CD6950196A7681003C0E60 /* Frameworks */,
+				30CD6951196A7681003C0E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AWTooltipView;
+			productName = AWTooltipView;
+			productReference = 30CD6953196A7681003C0E60 /* AWTooltipView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		30CD6976196A7681003C0E60 /* AWTooltipViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30CD698B196A7681003C0E60 /* Build configuration list for PBXNativeTarget "AWTooltipViewTests" */;
+			buildPhases = (
+				30CD6973196A7681003C0E60 /* Sources */,
+				30CD6974196A7681003C0E60 /* Frameworks */,
+				30CD6975196A7681003C0E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				30CD697D196A7681003C0E60 /* PBXTargetDependency */,
+			);
+			name = AWTooltipViewTests;
+			productName = AWTooltipViewTests;
+			productReference = 30CD6977196A7681003C0E60 /* AWTooltipViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30CD694B196A7681003C0E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = AW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Abe Wang";
+				TargetAttributes = {
+					30CD6976196A7681003C0E60 = {
+						TestTargetID = 30CD6952196A7681003C0E60;
+					};
+				};
+			};
+			buildConfigurationList = 30CD694E196A7681003C0E60 /* Build configuration list for PBXProject "AWTooltipView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30CD694A196A7681003C0E60;
+			productRefGroup = 30CD6954196A7681003C0E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30CD6952196A7681003C0E60 /* AWTooltipView */,
+				30CD6976196A7681003C0E60 /* AWTooltipViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30CD6951196A7681003C0E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CD6972196A7681003C0E60 /* Images.xcassets in Resources */,
+				30CD6961196A7681003C0E60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CD6975196A7681003C0E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CD6983196A7681003C0E60 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30CD694F196A7681003C0E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CD6991196A777E003C0E60 /* AWTooltipView.m in Sources */,
+				30CD6967196A7681003C0E60 /* AWAppDelegate.m in Sources */,
+				30CD6970196A7681003C0E60 /* AWViewController.m in Sources */,
+				30CD6963196A7681003C0E60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30CD6973196A7681003C0E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30CD6985196A7681003C0E60 /* AWTooltipViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30CD697D196A7681003C0E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30CD6952196A7681003C0E60 /* AWTooltipView */;
+			targetProxy = 30CD697C196A7681003C0E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		30CD695F196A7681003C0E60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CD6960196A7681003C0E60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		30CD6981196A7681003C0E60 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30CD6982196A7681003C0E60 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30CD6986196A7681003C0E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30CD6987196A7681003C0E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30CD6989196A7681003C0E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWTooltipView/AWTooltipView-Prefix.pch";
+				INFOPLIST_FILE = "AWTooltipView/AWTooltipView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		30CD698A196A7681003C0E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWTooltipView/AWTooltipView-Prefix.pch";
+				INFOPLIST_FILE = "AWTooltipView/AWTooltipView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		30CD698C196A7681003C0E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AWTooltipView.app/AWTooltipView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWTooltipView/AWTooltipView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AWTooltipViewTests/AWTooltipViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		30CD698D196A7681003C0E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AWTooltipView.app/AWTooltipView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AWTooltipView/AWTooltipView-Prefix.pch";
+				INFOPLIST_FILE = "AWTooltipViewTests/AWTooltipViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30CD694E196A7681003C0E60 /* Build configuration list for PBXProject "AWTooltipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CD6986196A7681003C0E60 /* Debug */,
+				30CD6987196A7681003C0E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30CD6988196A7681003C0E60 /* Build configuration list for PBXNativeTarget "AWTooltipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CD6989196A7681003C0E60 /* Debug */,
+				30CD698A196A7681003C0E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		30CD698B196A7681003C0E60 /* Build configuration list for PBXNativeTarget "AWTooltipViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30CD698C196A7681003C0E60 /* Debug */,
+				30CD698D196A7681003C0E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30CD694B196A7681003C0E60 /* Project object */;
+}
